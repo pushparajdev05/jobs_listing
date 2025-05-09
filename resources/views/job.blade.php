@@ -1,0 +1,9 @@
+<x-layout>
+    <section id="job-description">
+        @if (request()->is("jobs/*"))
+            <x-job-description company="{{$job['company']}}" position="{{$job['position']}}" salary="{{$job['salary']}}" email="{{$job['email']}}">
+                <x-slot:description>{{$job["description"]}}</x-slot:description>
+            </x-job-description>
+        @endif
+    </section>
+</x-layout>
