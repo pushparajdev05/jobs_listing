@@ -15,7 +15,7 @@
                     </div>
                     <div class="slot flex">
                         <label for="" class="font-semibold text-xl pr-2">Componay :</label>
-                        <p class="text-xl">{{$nJob["company"]}}</p>
+                        <p class="text-xl">{{$nJob["cmp_name"]}}</p>
                     </div>
                 </div>
                 <div id="rounded-nav" class="h-10 w-10 pt-0.5 rounded-full bg-blue-900 text-white font-bold text-xl hover:scale-120 duration-150 flex justify-center items-center">
